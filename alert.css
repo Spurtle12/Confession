@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&family=Delius&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: delius;
+  text-align: center;
+  padding: 20px;
+  background-image: url(cat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 225px;
+  height: 42px;
+  border-radius: 7px;
+  position: center;
+  top: 26%;
+  left: 5%;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: slategray;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: darkslategray;
+}
+
+img {
+  height: 120px;
+  width: 140px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.sbutton {
+  padding: 10px 20px;
+  position: center;
+  background-color: black;
+  color: floralwhite;
+  border: 4px solid black;
+  border-radius: 45px;
+  box-sizing: border-box;
+  right: 40%;
+  align-items: center;
+  line-height: 20px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 18px;
+  transform: 0.3s ease;
+}
+
+.sbutton:hover {
+  background-color: slategray;
+  box-shadow: 10px 15px 20px;
+  transform: scale (0.9);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.sbutton2 {
+  padding: 10px 20px;
+  position: center;
+  background-color: black;
+  color: floralwhite;
+  border: 4px solid black;
+  border-radius: 45px;
+  box-sizing: border-box;
+  left: 40%;
+  align-items: center;
+  line-height: 20px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 18px;
+  transform: 0.3s ease;
+}
+
+.sbutton2:hover {
+  background-color: slategray;
+  box-shadow: 10px 15px 20px;
+  transform: scale (0.9);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
